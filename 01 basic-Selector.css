@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> selector example </title>
+        <style>
+            /*  Targeting all the paragraph */
+            p {
+                color:blue;
+            }
+
+            /*  Targeting element with class highlight */
+            .highlight {
+                font-weight: bold;
+            }
+
+            /*  Targeting element with id  intro */
+            #intro {
+                font-style: italic;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <p> This is a simple paragraph to understand selector </p>
+        <p class="highlight">This is a simple paragraph to understand selector which is highlight</p>
+        <div id="intro"> This has intro for me</div>
+    </body>
+</html>
